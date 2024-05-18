@@ -1,0 +1,6 @@
+public class ch_0print {
+    public static void main(String[] args){
+       System.out.println("Hello java"); 
+    }
+    
+}
