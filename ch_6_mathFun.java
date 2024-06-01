@@ -9,6 +9,8 @@ public class ch_6_mathFun {
         //Square root
         System.out.println("Square root of number");
         System.out.println(Math.sqrt(49));
-        //
+        //random number
+        System.out.println("Random number:");
+        System.out.println(Math.round(Math.random()*7)+1);
     }
 }
