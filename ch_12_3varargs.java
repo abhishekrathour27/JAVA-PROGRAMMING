@@ -11,6 +11,7 @@ public class ch_12_3varargs {
      System.out.println("Addition of 1 or 3 :"+sum(1,3));
      System.out.println("Addition of 7 or 6 :"+sum(7,6));
      System.out.println("Addition of 15 or 17 :"+sum(15,17));
-   }
+     System.out.println("Addition of 15, 17 or 12 :"+sum(15,17,12));
+    }
     
 }
