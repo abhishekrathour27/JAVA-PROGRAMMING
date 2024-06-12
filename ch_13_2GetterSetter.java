@@ -1,6 +1,6 @@
 class Employeee{
-    int id,salary;
-    String name,address;
+   private int id,salary;
+   private String name,address;
     public void getIdSal(int Id,int sal){
         id = Id;
         salary = sal;
@@ -21,9 +21,11 @@ class Employeee{
     
 }
 
+
 public class ch_13_2GetterSetter {
     public static void main(String[] args) {
         Employeee obj = new Employeee();
+      
         obj.getIdSal(123,50000);
         obj.getNameAdd("Abhishek", "Bihar");
         obj.setIdSal();
