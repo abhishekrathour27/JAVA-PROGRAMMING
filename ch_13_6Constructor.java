@@ -1,12 +1,13 @@
 class print{
-   
-   public print(){
-     System.out.println("My name is Abhishek");
+   int a;
+   public print(int x){
+    a = x;
+     System.out.println("A = "+a);
    }
 }
 public class ch_13_6Constructor {
     public static void main(String[] args) {
-        print p = new print();
+        print p = new print(5);
        
         
     }

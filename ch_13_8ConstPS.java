@@ -1,3 +1,4 @@
+//Constructer Overloading
 class Add {
     int a, b, c;
 
@@ -20,10 +21,10 @@ class Add {
 
 }
 
-public class ch_13_8PS {
+public class ch_13_8ConstPS {
     public static void main(String[] args) {
 
-        Add a = new Add(1, 2, 3);
+        Add a = new Add(1, 2);
 
     }
 }

@@ -25,7 +25,7 @@ class math {
 }
 
 
-public class ch_13_7PS {
+public class ch_13_7ConstPS {
     public static void main(String[] args) {
 
       math m = new math(10, 5);
