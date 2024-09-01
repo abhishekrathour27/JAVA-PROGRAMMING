@@ -23,7 +23,7 @@ class base2 extends base1 {
     }
 }
 
-public class ch_14_2constructer {
+public class ch_14_2constInheri {
     public static void main(String[] args) {
         base2 b = new base2(1,2);
     }
